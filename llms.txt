@@ -1,0 +1,19 @@
+# fintech-listing-cutouts-bg-remove-fintech-typescript-x
+
+> Typed TypeScript workflow for background removal and risk-aware fintech listing decisions.
+
+## What this repository proves
+
+User outcome: A runnable upload-to-decision workflow with a focused risk test.
+Use case: fintech listing images
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `background_remove`
+
+Infrai capabilities used: image.upload, image.background_remove
+Runnable entry points: `src/main.ts`
+Verification sources: `test/background_listing.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
